@@ -59,8 +59,8 @@ plot(w/pi, angle(H));
 xlabel('Normalized Frequency');
 ylabel('Phase (Radians)');
 title("Phase Response");
-
-
+ ---
+```
 ## 🎛️ Filter Types & Parameters  
 
 ### 🔹 High-Pass FIR Filter  
@@ -106,7 +106,10 @@ title("Phase Response");
 - **Start Time**: `0 sec`  
 - **Stop Time**: `5 sec`  
 - **Type**: `Fixed-step`  
-- **Solver**: `Discrete (No continuous states)`   
+- **Solver**: `Discrete (No continuous states)`  
+
+📷 **Simulink Model in Action**  
+![Simulink Model](https://github.com/your-repo/FIR-Filter-MATLAB/blob/main/simulink_model.png?raw=true)  
 
 ---
 
@@ -116,6 +119,9 @@ title("Phase Response");
 ✔ **Rectangular window** had the **largest side lobes**, causing **unwanted spectral leakage**.  
 ✔ **Hamming and Hanning windows** provided a good balance between **main lobe width and side lobe attenuation**.  
 ✔ **Simulink model effectively filtered high-frequency noise**, while retaining essential signal components.  
+
+📷 **Comparison of Window Responses**  
+![Comparison](https://github.com/your-repo/FIR-Filter-MATLAB/blob/main/comparison.png?raw=true)  
 
 ---
 
@@ -138,5 +144,13 @@ title("Phase Response");
 🔹 **Hamming and Hanning windows** provide a **good trade-off** between **main lobe width and side lobe suppression**.  
 🔹 **Rectangular window** has the **worst side lobe attenuation**, making it unsuitable for high-precision filtering.  
 🔹 **Simulink simulations confirm the effectiveness** of FIR filters in removing unwanted high-frequency noise.  
+
+---
+
+## 🚀 Future Work  
+
+🔹 Implement **Adaptive FIR Filtering** for **real-time noise cancellation**.  
+🔹 Explore **higher-order FIR designs** for **sharper frequency transitions**.  
+🔹 Compare FIR filters with **IIR (Infinite Impulse Response) filters**.  
 
 ---
