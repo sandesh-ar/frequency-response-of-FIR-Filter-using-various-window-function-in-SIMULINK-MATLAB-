@@ -108,9 +108,6 @@ title("Phase Response");
 - **Type**: `Fixed-step`  
 - **Solver**: `Discrete (No continuous states)`  
 
-📷 **Simulink Model in Action**  
-![Simulink Model](https://github.com/your-repo/FIR-Filter-MATLAB/blob/main/simulink_model.png?raw=true)  
-
 ---
 
 ## 📈 Results & Observations  
@@ -119,11 +116,7 @@ title("Phase Response");
 ✔ **Rectangular window** had the **largest side lobes**, causing **unwanted spectral leakage**.  
 ✔ **Hamming and Hanning windows** provided a good balance between **main lobe width and side lobe attenuation**.  
 ✔ **Simulink model effectively filtered high-frequency noise**, while retaining essential signal components.  
-
-📷 **Comparison of Window Responses**  
-![Comparison](https://github.com/your-repo/FIR-Filter-MATLAB/blob/main/comparison.png?raw=true)  
-
----
+ ---
 
 ## ✅ Advantages of Different Window Functions  
 
